@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Designer</title>
+</head>
+    <body>
+        <h1>Design Your Desired Date!</h1>
+        <form action="submit" enctype="multipart/form-data" method="post">
+            <h2>Select Starting Point Type</h2>
+            <input type="radio" id="Entertainment" name="starting_point" value="Entertainment" checked>
+            <label for="Entertainment">Entertainment</label><br>
+            <input type="radio" id="Performing Arts" name="starting_point" value="Performing Arts">
+            <label for="Performing Arts">Performing Arts</label><br>
+            <input type="radio" id="Park" name="starting_point" value="Park">
+            <label for="Park">Park</label><br>
+            <input type="radio" id="Museum" name="starting_point" value="Museum">
+            <label for="Museum">Museum</label><br>
+            <input type="radio" id="Visitor Information" name="starting_point" value="Visitor Information">
+            <label for="Visitor Information">Visitor Information</label><br>
+            <input type="radio" id="Restaurants" name="starting_point" value="Restaurants">
+            <label for="Restaurants">Restaurants</label><br>
+            <input type="radio" id="Transportation" name="starting_point" value="Transportation">
+            <label for="Transportation">Transportation</label><br>
+            <input type="radio" id="Attraction" name="starting_point" value="Attraction">
+            <label for="Attraction">Attraction</label><br>
+            <input type="radio" id="Cinema" name="starting_point" value="Cinema">
+            <label for="Cinema">Cinema</label><br>
+            <input type="radio" id="Gallery" name="starting_point" value="Gallery">
+            <label for="Gallery">Gallery</label><br>
+            <input type="radio" id="Landmark" name="starting_point" value="Landmark">
+            <label for="Landmark">Landmark</label><br>
+            <input type="radio" id="Convention & Trade Centres" name="starting_point" value="Convention & Trade Centres">
+            <label for="Convention & Trade_Centres">Convention & Trade Centres</label><br>
+            <input type="radio" id="Nature" name="starting_point" value="Nature">
+            <label for="Nature">Nature</label>
+
+            <h2>Current Location</h2>
+            <label for="Longitude">Current Longitude</label>
+            <input type="number" id="Longitude" name="Longitude" value="{{place_long}}" step="any" required/>
+            <label for="Latitude">Current Latitude</label>
+            <input type="number" id="Latitude" name="Latitude" value="{{place_lat}}" step="any" required/><br>
+
+            <h2>Destination count</h2>
+            <label for="Number Destinations">Number of Destination(s)</label>
+            <input type="number" id="Number Destinations" name="Number Destinations" value="3" min="3" max="147">
+
+            <h2>Select Point(s) of Interest(s) You are Interested in Going</h2>
+            <input type="checkbox" id="Entertainment" name="POIs" value="Entertainment" checked>
+            <label for="Entertainment">Entertainment</label><br>
+            <input type="checkbox" id="Performing Arts" name="POIs" value="Performing Arts">
+            <label for="Performing Arts">Performing Arts</label><br>
+            <input type="checkbox" id="Park" name="POIs" value="Park">
+            <label for="Park">Park</label><br>
+            <input type="checkbox" id="Museum" name="POIs" value="Museum">
+            <label for="Museum">Museum</label><br>
+            <input type="checkbox" id="Visitor Information" name="POIs" value="Visitor Information">
+            <label for="Visitor Information">Visitor Information</label><br>
+            <input type="checkbox" id="Restaurants" name="POIs" value="Restaurants">
+            <label for="Restaurants">Restaurants</label><br>
+            <input type="checkbox" id="Transportation" name="POIs" value="Transportation">
+            <label for="Transportation">Transportation</label><br>
+            <input type="checkbox" id="Attraction" name="POIs" value="Attraction">
+            <label for="Attraction">Attraction</label><br>
+            <input type="checkbox" id="Cinema" name="POIs" value="Cinema">
+            <label for="Cinema">Cinema</label><br>
+            <input type="checkbox" id="Gallery" name="POIs" value="Gallery">
+            <label for="Gallery">Gallery</label><br>
+            <input type="checkbox" id="Landmark" name="POIs" value="Landmark">
+            <label for="Landmark">Landmark</label><br>
+            <input type="checkbox" id="Convention & Trade Centres" name="POIs" value="Convention & Trade Centres">
+            <label for="Convention & Trade_Centres">Convention & Trade Centres</label><br>
+            <input type="checkbox" id="Nature" name="POIs" value="Nature">
+            <label for="Nature">Nature</label>
+
+            <h2>Select End Point Type</h2>
+            <input type="radio" id="Entertainment" name="end_point" value="Entertainment" checked>
+            <label for="Entertainment">Entertainment</label><br>
+            <input type="radio" id="Performing Arts" name="end_point" value="Performing Arts">
+            <label for="Performing_Arts">Performing Arts</label><br>
+            <input type="radio" id="Park" name="end_point" value="Park">
+            <label for="Park">Park</label><br>
+            <input type="radio" id="Museum" name="end_point" value="Museum">
+            <label for="Museum">Museum</label><br>
+            <input type="radio" id="Visitor Information" name="end_point" value="Visitor Information">
+            <label for="Visitor_Information">Visitor Information</label><br>
+            <input type="radio" id="Restaurants" name="end_point" value="Restaurants">
+            <label for="Restaurants">Restaurants</label><br>
+            <input type="radio" id="Transportation" name="end_point" value="Transportation">
+            <label for="Transportation">Transportation</label><br>
+            <input type="radio" id="Attraction" name="end_point" value="Attraction">
+            <label for="Attraction">Attraction</label><br>
+            <input type="radio" id="Cinema" name="end_point" value="Cinema">
+            <label for="Cinema">Cinema</label><br>
+            <input type="radio" id="Gallery" name="end_point" value="Gallery">
+            <label for="Gallery">Gallery</label><br>
+            <input type="radio" id="Landmark" name="end_point" value="Landmark">
+            <label for="Landmark">Landmark</label><br>
+            <input type="radio" id="Convention & Trade_Centres" name="end_point" value="Convention & Trade Centres">
+            <label for="Convention & Trade_Centres">Convention & Trade Centres</label><br>
+            <input type="radio" id="Nature" name="end_point" value="Nature">
+            <label for="Nature">Nature</label><br>
+
+            <input type="submit" value="Submit">
+    </form>
+    </body>
+</html>

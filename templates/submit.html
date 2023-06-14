@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Map!</title>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='styles/submit.css') }} />
+</head>
+    <body>
+        <h1>Here Is Your Route!</h1>
+        {{ plotly_map | safe }}
+    </body>
+</html>
