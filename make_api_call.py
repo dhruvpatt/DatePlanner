@@ -1,7 +1,7 @@
 """Make API Request"""
 import requests
 
-KEY = 'Add Key Here'
+KEY = 'Add Google Maps Key Here'
 
 
 def make_request(start: str, end: str) -> list[list[dict[str, float]]]:
